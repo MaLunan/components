@@ -23,7 +23,7 @@
             :base-path="child.path"
             class="nest-menu" />
           <router-link v-else :to="{path:child.path}" :key="child.name">
-            <el-menu-item :index="child.meta.path">
+            <el-menu-item :index="child.path">
               <item v-if="child.meta" :icon="child.meta.icon" :title="child.meta.title" />
             </el-menu-item>
           </router-link>

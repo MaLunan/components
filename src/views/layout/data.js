@@ -3,41 +3,74 @@ const data=[
         hidden: false,
         meta: {
            icon: "el-icon-phone-outline",
-            title: "pag1",
-        },
-        path: "/page1",               
+            title: "组件库",
+        },   
+        children:[{
+          hidden: false,
+          meta: {
+            icon: "el-icon-phone-outline",
+              title: "树状菜单可拖动",
+          },
+          path: "/tree",  
+          },{
+            hidden: false,
+            meta: {
+              icon: "el-icon-phone-outline",
+                title: "分页",
+            },
+            path: "/Pagination",  
+          },{
+            hidden: false,
+            meta: {
+              icon: "el-icon-phone-outline",
+                title: "选人控件4",
+            },
+            path: "/selectUse23r",  
+          },{
+            hidden: false,
+            meta: {
+              icon: "el-icon-phone-outline",
+                title: "选人控件5",
+            },
+            path: "/selectUser",  
+          },]         
       },
       { 
         hidden: false,
         meta: {
            icon: "el-icon-document",
-            title: "page2",
+            title: "page22",
         },
-        path: "/page2",    
+        path: "/page22",   
+        children:[{
+          hidden: false,
+          meta: {
+            icon: "el-icon-phone-outline",
+              title: "树状菜单可拖动2",
+          },
+          path: "/tree2",  
+          },{
+            hidden: false,
+            meta: {
+              icon: "el-icon-phone-outline",
+                title: "分页2",
+            },
+            path: "/Pagination2",  
+          },{
+            hidden: false,
+            meta: {
+              icon: "el-icon-phone-outline",
+                title: "选人控件42",
+            },
+            path: "/selectUser2",  
+          },{
+            hidden: false,
+            meta: {
+              icon: "el-icon-phone-outline",
+                title: "选人控件52",
+            },
+            path: "/selectUs2er",  
+          },]   
       },
-      { 
-        hidden: false,
-        meta: {
-           icon: "el-icon-location",
-            title: "page3",
-        },
-        path: "/page3",    
-      },
-      { 
-        hidden: false,
-        meta: {
-           icon: "el-icon-mobile-phone",
-            title: "page4",
-        },
-        path: "/page4",    
-      },
-      { 
-        hidden: false,
-        meta: {
-           icon: "el-icon-bell",
-            title: "page5",
-        },
-        path: "/page5",    
-      }
 ]
 export default data;
